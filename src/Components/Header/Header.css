@@ -1,0 +1,23 @@
+.backgroundDesign{
+   
+    position: relative;
+    width: 100%;
+   
+    
+   
+}
+.backgroundDesign::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -20;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-3deg);
+    border-bottom:#7b9095 3px solid;
+    margin-bottom: -3px;
+  
+  }
+ 

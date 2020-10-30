@@ -1,0 +1,16 @@
+.picSize{
+    height:150px;
+}
+.trans-card {
+    transition: 0.4s;
+  }
+  
+  .trans-card:hover {
+    transform: translateY(-1rem);
+  }
+
+  .alignment {
+    margin-right: 0px !important;
+  }
+
+  
